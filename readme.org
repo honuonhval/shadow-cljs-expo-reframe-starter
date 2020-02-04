@@ -1,0 +1,10 @@
+* Shadow-cljs + Expo (SDK36) + Re-frame Starter
+This is a minimum starter scaffolding to get started developing mobile apps with [[https://facebook.github.io/react-native/][React Native]] / [[https://expo.io/][Expo]]
+with [[https://clojurescript.org/][clojurescript]] ([[http://shadow-cljs.org/][shadow-cljs]] is used for better integration of npm modules).  
+[[https://github.com/Day8/re-frame][Re-frame]] is used for state management.  
+Although this starter is using Expo's managed workflow it can easily be ejected in case native modules are required. 
+Follow [[https://docs.expo.io/versions/v36.0.0/bare/customizing/][Ejecting from Managed Workflow]] to eject from Expo and include native modules.
+
+* TODO Prerequesites
+* TODO Setup
+* TODO Further Reading

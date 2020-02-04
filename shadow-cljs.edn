@@ -1,0 +1,18 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/cljs"
+  "src/test"]
+
+ :nrepl {:port 8777}
+
+ :dependencies
+ [[reagent "0.9.1"]
+  [re-frame "0.11.0"]]
+
+ :builds
+ {:app
+  {:target :react-native
+   :init-fn scer.app/init
+   :output-dir "target"
+   :compiler-options {:infer-externs :auto}
+   :devtools {:autoload true}}}}
